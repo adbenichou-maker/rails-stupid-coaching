@@ -1,0 +1,19 @@
+<div class='container'>
+  <figure>
+    <blockquote class="blockquote">
+      <p><%=params[:question]%></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">You</cite>
+    </figcaption>
+  </figure>
+  <figure>
+    <blockquote class="blockquote">
+      <p><%=@answer%></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      <cite title="Source Title">Your coach</cite>
+    </figcaption>
+  </figure>
+  <%= link_to "Ask a new question", "/ask" %>
+</div>
